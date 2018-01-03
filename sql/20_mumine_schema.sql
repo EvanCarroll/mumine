@@ -1,0 +1,2 @@
+DROP SCHEMA mumine CASCADE;
+CREATE SCHEMA mumine;

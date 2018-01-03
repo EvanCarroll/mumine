@@ -1,0 +1,5 @@
+DROP SCHEMA flybase;
+CREATE SCHEMA flybase;
+IMPORT FOREIGN SCHEMA public
+ FROM SERVER flybase
+ INTO flybase;
